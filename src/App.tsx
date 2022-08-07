@@ -43,7 +43,7 @@ const App = () => {
       <StatusBar barStyle={'light-content'} />
       <ScrollView contentInsetAdjustmentBehavior="automatic">
         <View style={styles.wrapper}>
-          <Board opening={opening} />
+          <Board />
 
           {board.rows.map((row, y) =>
             row.map((piece, x) => (
