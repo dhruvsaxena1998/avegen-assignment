@@ -94,10 +94,6 @@ export class Chess {
     this.board = StartingBoard;
   }
 
-  getBoard() {
-    return this.board;
-  }
-
   private getRows() {
     return __cloneDeep(this.board.rows);
   }
@@ -106,7 +102,7 @@ export class Chess {
     return 8 - +square.split('')[1];
   }
 
-  setRows(rows: Rows) {
+  private setRows(rows: Rows) {
     this.board = {
       ...this.board,
       rows: __cloneDeep(rows),
@@ -141,5 +137,9 @@ export class Chess {
   reset() {
     this.board = StartingBoard;
     return this;
+  }
+
+  getBoard() {
+    return this.board;
   }
 }

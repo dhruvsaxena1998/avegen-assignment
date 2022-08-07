@@ -8,7 +8,7 @@ export type Square = `${KeysAlpha}${KeysNums}`;
 type Row = {
   color: Color | null;
   type: Type | null;
-  square: Square;
+  square: Square | null;
 };
 type Rows = Array<Array<Row>>;
 

@@ -19,7 +19,6 @@
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
     "@tsconfig/react-native": "^2.0.2",
-    "@types/chess.js": "^0.13.2",
     "@types/jest": "^26.0.23",
     "@types/lodash": "^4.14.182",
     "@types/react-native": "^0.69.3",
