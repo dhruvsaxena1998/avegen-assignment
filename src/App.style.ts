@@ -18,12 +18,12 @@ export const styles = StyleSheet.create({
   button: {
     backgroundColor: Colors.black,
     padding: Constants.padding,
-    borderRadius: 10,
+    borderRadius: Constants.borderRadius,
     marginBottom: Constants.margin,
   },
   text: {
     color: Colors.white,
-    fontSize: 16,
+    fontSize: Constants.fontSize,
     fontWeight: '900',
     textAlign: 'center',
     textTransform: 'uppercase',

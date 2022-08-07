@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import {Colors} from '../config/constants';
+import {Colors, Constants} from '../config/constants';
 import type {SquareProps} from '../types/board';
 
 export const Square: React.FC<SquareProps> = ({row, column}) => {
@@ -35,7 +35,7 @@ export const Square: React.FC<SquareProps> = ({row, column}) => {
 const styles = StyleSheet.create({
   square: {
     flex: 1,
-    padding: 4,
+    padding: Constants.padding_sm,
     justifyContent: 'space-between',
   },
   text: {

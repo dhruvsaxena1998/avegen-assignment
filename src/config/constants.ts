@@ -2,7 +2,12 @@ import type {Pieces} from '../types/piece';
 
 export const Constants = {
   padding: 10,
+  padding_sm: 4,
+
   margin: 10,
+
+  borderRadius: 10,
+  fontSize: 16,
 
   chessPieceSize: 30,
 };

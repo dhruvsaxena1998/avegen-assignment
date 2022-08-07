@@ -8,16 +8,14 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
+import {Chess} from './lib/chess';
 import {Board} from './components/Board';
 import {PieceComponent} from './components/Piece';
-
 import {Opening, Openings} from './config/openings';
 
-import {Chess} from './lib/chess';
+import {styles} from './App.style';
 
 const chess = new Chess();
-
-import {styles} from './App.style';
 
 const App = () => {
   const [board, setBoard] = useState(chess.getBoard());
@@ -49,7 +47,11 @@ const App = () => {
 
           {board.rows.map((row, y) =>
             row.map((piece, x) => (
-              <PieceComponent key={`${x + y}`} piece={piece} position={{x, y}} />
+              <PieceComponent
+                key={`${x + y}`}
+                piece={piece}
+                position={{x, y}}
+              />
             )),
           )}
 
