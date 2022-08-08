@@ -4,6 +4,8 @@
 
 Apk Download Link - [Github](https://github.com/dhruvsaxena1998/avegen-assignment/blob/main/android/app/release/app-release.apk)
 
+Release - [https://github.com/dhruvsaxena1998/avegen-assignment/releases/tag/v1.0](https://github.com/dhruvsaxena1998/avegen-assignment/releases/tag/v1.0)
+
 ## Steps to run
 
 1. Please setup react native enviroment.
