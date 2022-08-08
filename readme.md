@@ -2,6 +2,8 @@
 
 ## Android application with react-native.
 
+Apk Download Link - [Github](https://github.com/dhruvsaxena1998/avegen-assignment/blob/main/android/app/release/app-release.apk)
+
 ## Steps to run
 
 1. Please setup react native enviroment.
